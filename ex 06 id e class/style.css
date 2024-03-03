@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+body{
+
+    background-color: rgb(215, 243, 243);
+}
+
+h1.diff{
+color: rgb(182, 61, 61);
+}
+h1{
+    color: blueviolet;
+}

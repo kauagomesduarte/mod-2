@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+*{
+    margin: 0%;
+    border: 0%;
+    font-family: sans-serif;
+}
+
+body{
+    background-attachment: fixed;
+    background-image:linear-gradient(#8BD2AC, #53A77A)
+}
+
+header{
+    background-image: radial-gradient( #53A764, #297D3A);
+    padding: 30px 40px;
+    color: white;
+    margin: auto;
+    text-align: center;
+}
+
+header h2{
+    font-size: 20px;
+    color: #bedfcf;
+}
+
+nav{
+    background-image: linear-gradient(#0D522E, #023319);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 4px 0px;
+    a:hover{
+        color: #8BD299;
+    }
+    a:active{
+        background-color: #53A75C;
+    }
+}
+nav article a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 15px;
+}
+
+
+div#espace{
+       padding: 120px;
+}
+
+
+/*TEXTOS TEXTOS TEXTOS TEXTOS TEXTOS TEXTOS TEXTOS*/
+
+main {
+    background-color: #D1EBDF ;
+    padding: 30px 40px;
+    margin: auto;
+    min-width: 320px;
+    max-width: 850px;
+}
+
+main h2{
+    padding-bottom: 15px;
+}
+
+main p{
+    padding-bottom: 30px;
+    text-align: justify;
+    font-size: 16px;
+    text-indent: 10px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.116);
+}
+
+details{
+    background-color: #3e966dd5;
+    text-align: justify;
+    font-size: 16px;
+    text-indent: 10px;
+    a:hover{
+        color: #5f7c64;
+    }
+    box-shadow: 6px 7px 10px 0px rgba(0, 0, 0, 0.144);
+}
+
+#listtxt{
+    font-size: 17px;
+}
+
+details summary{
+ padding: 5px;
+ font-weight: bold;
+}
+
+details aside{
+    background-color: #8BD2AC;
+    padding: 15px 20px;
+}
+
+aside p a{
+    text-decoration: none;
+    color: rgb(43, 66, 40);
+    font-size: 17;
+    font-weight: bold;
+}
+
+
+#yt{
+    position: relative;
+    padding-bottom: 56.75%;
+}
+
+main iframe{
+    padding: 10px;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+.img1{
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+
+#img2{
+    max-width: 800px;
+    min-width: 400px;
+    display: block;
+    margin: auto;
+}
+
+footer{
+    margin: auto;
+    text-align: center;
+    background-color: #023319;
+    color: #D1EBDF;
+    font-weight: bold;
+}
+
+ul{
+    columns: 2;
+    padding: 15px;
+}

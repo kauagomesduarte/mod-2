@@ -1,0 +1,26 @@
+@charset "UTF-8";
+*{
+    font-family: arial;
+    font-size: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-attachment: fixed;
+}
+main{
+    background-color: rgb(179, 179, 179);
+    background-attachment: fixed;
+    border-radius: 12px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.151);
+}
+
+h1{
+    text-align: center;
+    color: black;
+}
+
+h2, p{
+    text-align:justify ;
+}
+body{
+        background-image: linear-gradient(white, gray, black);
+}
